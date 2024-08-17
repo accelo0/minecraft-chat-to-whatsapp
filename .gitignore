@@ -1,0 +1,9 @@
+node_modules
+.wwebjs_auth
+.wwebjs_cache
+whatsappSession
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+*.env

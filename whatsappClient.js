@@ -35,10 +35,6 @@ whatsappClient.on("message_create", async (message) => {
 whatsappClient.initialize();
 
 //FUNCTIONS
-// const chat = "120363323085173405@g.us";
-// const consoleChannel = "1273954348451364884";
-// const mcChatChannel = "1273954293510312020";
-
 function sendWhatsAppMessage(message) {
   whatsappClient.sendMessage(process.env.WHATSAPP_CHAT_GROUP, message);
 }
